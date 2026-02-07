@@ -419,6 +419,18 @@ npm run dev
 
 ---
 
+## 🚀 Deployment
+
+We support a free-tier compatible deployment stack:
+
+- **Backend (Issuer Node)**: Render (using Docker)
+- **Frontend (Web App)**: Vercel
+- **Database/Cache**: Neon (Postgres) & Upstash (Redis)
+
+👉 **[Read the Full Deployment Guide](DEPLOYMENT_GUIDE.md)**
+
+---
+
 ## 📡 API Reference
 
 ### Issuer Endpoints
