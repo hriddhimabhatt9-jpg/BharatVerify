@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: bharatverify-issuer-node
+    runtime: docker
+    root: issuer-node
+    plan: free
+    region: singapore
+    envVars:
+      - key: ISSUER_SERVER_PORT
+        value: 3001
+      - key: ISSUER_ENVIRONMENT
+        value: production
+      - key: ISSUER_DB_URL
+        sync: false
+      - key: ISSUER_CACHE_URL
+        sync: false
+      - key: ISSUER_API_AUTH_USER
+        sync: false
+      - key: ISSUER_API_AUTH_PASSWORD
+        sync: false
+      - key: ISSUER_SERVER_URL
+        sync: false
+    healthCheckPath: /status
+    startCommand: ./main

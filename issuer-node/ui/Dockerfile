@@ -11,4 +11,6 @@ RUN npm install
 
 COPY . .
 
+RUN sed -i 's/\r$//' /app/scripts/deploy.sh
+
 ENTRYPOINT ["/bin/sh", "/app/scripts/deploy.sh"]
