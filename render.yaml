@@ -2,7 +2,7 @@ services:
   - type: web
     name: bharatverify-issuer-node
     runtime: docker
-    root: issuer-node
+    rootDir: issuer-node
     plan: free
     region: singapore
     envVars:
