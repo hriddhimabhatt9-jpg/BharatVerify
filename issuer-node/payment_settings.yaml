@@ -1,0 +1,177 @@
+1:  # Ethereum Mainnet
+  PaymentRails: 0xe317A4f1450116b2fD381446DEaB41c882D6136D
+  PaymentOptions:
+    - ID: 1
+      Name: Ethereum
+      Type: Iden3PaymentRailsRequestV1
+      Decimals: 18
+    - ID: 2
+      Name: Ethereum USDT
+      Type: Iden3PaymentRailsERC20RequestV1
+      ContractAddress: 0xdac17f958d2ee523a2206206994597c13d831ec7  # https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7
+      Features: []
+      Decimals: 6
+    - ID: 3
+      Name: Ethereum USDC
+      Type: Iden3PaymentRailsERC20RequestV1
+      ContractAddress: 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48  # https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48
+      Features:
+        - EIP-2612
+      Decimals: 6
+
+137:  # Polygon Mainnet
+  PaymentRails: 0xe317A4f1450116b2fD381446DEaB41c882D6136D
+  PaymentOptions:
+    - ID: 4
+      Name: Polygon
+      Type: Iden3PaymentRailsRequestV1
+      Decimals: 18
+    - ID: 5
+      Name: Polygon USDT
+      Type: Iden3PaymentRailsERC20RequestV1
+      ContractAddress: 0xc2132d05d31c914a87c6611c10748aeb04b58e8f  # https://polygonscan.com/token/0xc2132d05d31c914a87c6611c10748aeb04b58e8f
+      Features: []
+      Decimals: 6
+    - ID: 6
+      Name: Polygon USDC
+      Type: Iden3PaymentRailsERC20RequestV1
+      ContractAddress: 0x3c499c542cef5e3811e1192ce70d8cc03d5c3359  # https://polygonscan.com/token/0x3c499c542cef5e3811e1192ce70d8cc03d5c3359
+      Features:
+        - EIP-2612
+      Decimals: 6
+
+1101:  # Polygon zkEVM
+  PaymentRails: 0xe317A4f1450116b2fD381446DEaB41c882D6136D
+  PaymentOptions:
+    - ID: 7
+      Name: Polygon zkEVM
+      Type: Iden3PaymentRailsRequestV1
+      Decimals: 18
+    - ID: 8
+      Name: Polygon zkEVM USDT
+      Type: Iden3PaymentRailsERC20RequestV1
+      ContractAddress: 0x1e4a5963abfd975d8c9021ce480b42188849d41d  # https://zkevm.polygonscan.com/token/0x1e4a5963abfd975d8c9021ce480b42188849d41d
+      Features:
+        - EIP-2612
+      Decimals: 6
+    - ID: 9
+      Name: Polygon zkEVM USDC
+      Type: Iden3PaymentRailsERC20RequestV1
+      ContractAddress: 0xa8ce8aee21bc2a48a5ef670afcc9274c7bbbc035  # https://zkevm.polygonscan.com/token/0xa8ce8aee21bc2a48a5ef670afcc9274c7bbbc035
+      Features:
+        - EIP-2612
+      Decimals: 6
+
+59144:  # Linea
+  PaymentRails: 0xe317A4f1450116b2fD381446DEaB41c882D6136D
+  PaymentOptions:
+    - ID: 10
+      Name: Linea
+      Type: Iden3PaymentRailsRequestV1
+      Decimals: 18
+    - ID: 11
+      Name: Linea USDT
+      Type: Iden3PaymentRailsERC20RequestV1
+      ContractAddress: 0xa219439258ca9da29e9cc4ce5596924745e12b93  # https://lineascan.build/token/0xa219439258ca9da29e9cc4ce5596924745e12b93
+      Features:
+        - EIP-2612
+      Decimals: 6
+    - ID: 12
+      Name: Linea USDC
+      Type: Iden3PaymentRailsERC20RequestV1
+      ContractAddress: 0x176211869cA2b568f2A7D4EE941E073a821EE1ff  # https://lineascan.build/token/0x176211869cA2b568f2A7D4EE941E073a821EE1ff
+      Features:
+        - EIP-2612
+      Decimals: 6
+
+21001: # Privado testnet
+  PaymentRails: 0xe317A4f1450116b2fD381446DEaB41c882D6136D
+  PaymentOptions:
+    - ID: 101
+      Name: Privado testnet
+      Type: Iden3PaymentRailsRequestV1
+      Decimals: 18
+
+59141: # Linea sepolia
+  PaymentRails: 0xe317A4f1450116b2fD381446DEaB41c882D6136D
+  PaymentOptions:
+    - ID: 102
+      Name: Linea sepolia
+      Type: Iden3PaymentRailsRequestV1
+      Decimals: 18
+
+80002: # Amoy
+  PaymentRails: 0xe317A4f1450116b2fD381446DEaB41c882D6136D
+  PaymentOptions:
+    - ID: 103
+      Name: Amoy
+      Type: Iden3PaymentRailsRequestV1
+      Decimals: 18
+    - ID: 107
+      Name: Amoy ERC-20 TST
+      Type: Iden3PaymentRailsERC20RequestV1
+      ContractAddress: 0x08FC191C84D27faf9414ec01f0804FD119e7244E
+      Features: []
+      Decimals: 6
+
+11155111: # Sepolia
+  PaymentRails: 0xe317A4f1450116b2fD381446DEaB41c882D6136D
+  PaymentOptions:
+    - ID: 104
+      Name: Sepolia
+      Type: Iden3PaymentRailsRequestV1
+      Decimals: 18
+
+103: #Solana devnet
+  PaymentRails: Hys6CpX8McHbPBaPKbRYGVdXVxor1M5pSZUDMMwakGmM
+  PaymentOptions:
+    - ID: 105
+      Name: Solana devnet
+      Type: Iden3PaymentRailsSolanaRequestV1
+      Decimals: 9
+    - ID: 106
+      Name: Solana devnet test SPL
+      Type: Iden3PaymentRailsSolanaSPLRequestV1
+      ContractAddress: 4MjRhSkDaXmgdAL9d9UM7kmgJrWYGJH66oocUN2f3VUp
+      Decimals: 9
+8453: #Base
+  PaymentRails: 0xe317A4f1450116b2fD381446DEaB41c882D6136D
+  PaymentOptions:
+    - ID: 108
+      Name: Base
+      Type: Iden3PaymentRailsRequestV1
+      Decimals: 18
+    - ID: 109
+      Name: Base USDC
+      Type: Iden3PaymentRailsERC20RequestV1
+      ContractAddress: 0x833589fcd6edb6e08f4c7c32d4f71b54bda02913  # https://basescan.org/token/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913
+      Features:
+        - EIP-2612
+      Decimals: 6
+84532: #Base testnet
+  PaymentRails: 0xe317A4f1450116b2fD381446DEaB41c882D6136D
+  PaymentOptions:
+    - ID: 110
+      Name: Base testnet
+      Type: Iden3PaymentRailsRequestV1
+      Decimals: 18
+56: #Binance Smart Chain
+  PaymentRails: 0xe317A4f1450116b2fD381446DEaB41c882D6136D
+  PaymentOptions:
+    - ID: 111
+      Name: Binance Smart Chain
+      Type: Iden3PaymentRailsRequestV1
+      Decimals: 18
+    - ID: 113
+      Name: BUSD-T Stablecoin
+      Type: Iden3PaymentRailsERC20RequestV1
+      ContractAddress: 0x55d398326f99059fF775485246999027B3197955 # https://bscscan.com/address/0x55d398326f99059ff775485246999027b3197955
+      Features: []
+      Decimals: 18
+97: #Binance Smart Chain Testnet
+  PaymentRails: 0xe317A4f1450116b2fD381446DEaB41c882D6136D
+  PaymentOptions:
+    - ID: 112
+      Name: Binance Smart Chain Testnet
+      Type: Iden3PaymentRailsRequestV1
+      Decimals: 18
